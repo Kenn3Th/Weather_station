@@ -46,9 +46,9 @@ def on_message(client, userdata, msg):
            print("Fukt: "+str(data))
     if len(Vind)>5:
         print("Like a glove!")
-        plot_graf("Temperatur_test",1,"C",Temp)
-        plot_graf("Fuktighet_test",2,"%",Humi)
-        plot_graf("Vindhastighet_test",3,"m/s",Vind)
+        plot_graf("Temperatur",1,"C",Temp)
+        plot_graf("Fuktighet",2,"%",Humi)
+        plot_graf("Vindhastighet",3,"m/s",Vind)
         send_data = str("%0.2f" % Temp[-1])+'/'+str("%0.2f" % Humi[-1])+'/'+str("%0.2f" % Vind[-1])
         print(send_data)
         client.publish('/info/esp8266',send_data)
