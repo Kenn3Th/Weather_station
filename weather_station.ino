@@ -3,9 +3,9 @@
 #include "Adafruit_MQTT.h"        //MQTT protokoll bibliotek
 #include "Adafruit_MQTT_Client.h" //MQTT klient bibliotek
 /************************* WiFi Access Point **********************************/ 
-#define WLAN_SSID       "SM-G935F"        //"OsloMet MakerSpace" 
-#define WLAN_PASS       "onzx7468"        //"o5lom3et2018" 
-#define MQTT_SERVER     "192.168.43.167"  //"10.253.5.153" // static ip address
+#define WLAN_SSID       "[Your_SSID]"        //"OsloMet MakerSpace" 
+#define WLAN_PASS       "[Your_password]"    //"o5lom3et2018" 
+#define MQTT_SERVER     "[Your_IP]"          // static ip address
 #define MQTT_PORT       1883                    
 #define MQTT_USERNAME   "" 
 #define MQTT_PASSWORD   "" 
