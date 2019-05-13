@@ -5,9 +5,9 @@
 #include <string.h> 
 
 /*** WiFi Access Point ***/ 
-#define WLAN_SSID       "OsloMet MakerSpace" 
-#define WLAN_PASS       "o5lom3et2018"
-#define MQTT_SERVER     "10.253.5.153" // static ip address
+#define WLAN_SSID       "[YOUR SSID]" 
+#define WLAN_PASS       "[SSID_PASSWORD]"
+#define MQTT_SERVER     "[IP]" // static ip address
 #define MQTT_PORT       1883                    
 #define MQTT_USERNAME   "" 
 #define MQTT_PASSWORD        ""
